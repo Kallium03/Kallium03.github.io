@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {background-color: gray; margin: 0;}
+        .parent {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+            grid-gap: 10px;
+            padding: 10px;
+            justify-content: center;
+        }
+        .parent a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+            position: relative; /* Para posicionar el epígrafe de manera absoluta */
+        }
+        .parent img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+        }
+        .caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            color: white;
+            padding: 5px 0; /* Añade espacio vertical al epígrafe */
+            font-size:40px;
+        }
+        p {
+            font-size:20px;
+            margin-top: 0; /* Elimina el espacio superior del párrafo */
+            text-align:left; /* Centrar el texto */
+        }
+        p .title {
+            font-size: 24px; /* Tamaño de fuente para el título */
+            margin-bottom: 10px; /* Añade espacio inferior al título */
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <a href=".Humanos/demaciano.html">
+            <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Quinn_0.jpg" alt="Skarner">
+        </a>
+        <a>
+            <p>
+                <span class="title">Demacia</span>
+				<br>
+                Un reino fuerte y legal con una prestigiosa historia militar, el pueblo de Demacia siempre ha valorado más los ideales de justicia, honor y deber, y está tremendamente orgulloso de su herencia cultural. Pero a pesar de estos elevados principios, esta nación en gran parte autosuficiente se ha vuelto más insular y aislacionista en los últimos siglos.
+                <br>
+				<span style="font-weight:;">
+                La capital, la Gran Ciudad de Demacia, fue fundada como un refugio de la hechicería después de la pesadilla de las Guerras Rúnicas, y construida sobre el enigma de la petricita, una peculiar piedra blanca que amortigua la energía mágica. . Es desde aquí donde la familia real se ha ocupado durante mucho tiempo de la defensa de las ciudades y pueblos periféricos, las tierras de cultivo, los bosques y las montañas ricas en recursos minerales.
+				<br>
+				Algunos se atreven a susurrar que la edad de oro de Demacia ha pasado y, a menos que su gente esté dispuesta a adaptarse a un mundo cambiante, algo que muchos creen que son simplemente incapaces de hacer, el declive del reino puede ser inevitable.
+				Y toda la petricita de la tierra no protegerá a Demacia de sí misma.
+				<br><br>
+				<span class="title">Human</span>
+				<br>
+				Ability Scores: Str +1; Dex +1; Con +1; Int +1; Wis +1; Cha +1
+				<br>
+				Size: Medium
+				<br>
+				Speed: 30 ft.
+				<br>
+				Age. Humans reach adulthood in their late teens and live less than a century.
+				<br>
+				Size. Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.
+				<br>
+				Languages. You can speak, read, and write Demacian and one extra language of your choice. 
+			</span>
+			</p>
+        </a>
+    </div>
+</body>
+</html>
