@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {background-color: gray; margin: 0;}
+        .parent {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+            grid-gap: 10px;
+            padding: 10px;
+            justify-content: center;
+        }
+        .parent a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+            position: relative; /* Para posicionar el epígrafe de manera absoluta */
+        }
+        .parent img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+        }
+        .caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            color: white;
+            padding: 5px 0; /* Añade espacio vertical al epígrafe */
+            font-size:40px;
+        }
+        p {
+            font-size:20px;
+            margin-top: 0; /* Elimina el espacio superior del párrafo */
+            text-align:left; /* Centrar el texto */
+        }
+        p .title {
+            font-size: 24px; /* Tamaño de fuente para el título */
+            margin-bottom: 10px; /* Añade espacio inferior al título */
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <a>
+            <img src="https://static.wikia.nocookie.net/leagueoflegends/images/0/08/01NX036-full.png/revision/latest/scale-to-width-down/1200?cb=20200407025047" alt="Skarner">
+        </a>
+        <a>
+            <p>
+                <span class="title">Minotauro</span>
+				<br>
+				Los minotauros son enormes bovinos humanoides. Viven en grandes tribus en las cercanías de Piltover y Noxus, y son bastante nobles y valerosos en sus costumbres. Muchos clanes de Minotauros se unieron a la maquinaria de guerra noxiana; aquellos que se opusieron al imperio han sido esclavizados y obligados a luchar como gladiadores en el brutal evento noxiano conocido como la Carnicería.
+				<br><br>
+				<span class="title">Minotaur</span>
+				<br>
+				Ability Scores: Str +2; Con +1
+				<br>
+				Size: Medium
+				<br>
+				Speed: 30 ft.
+				<br><br>
+				Age. Minotaurs enter adulthood at around the age of 17 and can live up to 150 years.
+				<br><br>
+				Alignment. Most minotaurs lean toward lawful alignments.
+				<br><br>
+				Size. Minotaurs average over 6 feet in height, and they have stocky builds. Your size is Medium.
+				<br><br>
+				Horns. Your horns are natural melee weapons, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.
+				<br><br>
+				Goring Rush. Immediately after you use the Dash action on your turn and move at least 20 feet, you can make one melee attack with your horns as a bonus action.
+				<br><br>
+				Hammering Horns. Immediately after you hit a creature with a melee attack as part of the Attack action on your turn, you can use a bonus action to attempt to shove that target with your horns. The target must be no more than one size larger than you and within 5 feet of you. Unless it succeeds on a Strength saving throw against a DC equal to 8 + your proficiency bonus + your Strength modifier, you push it up to 10 feet away from you.
+				<br><br>
+				Imposing Presence. You have proficiency in one of the following skills of your choice: Intimidation or Persuasion.
+				<br><br>
+				Languages. You can speak, read, and write Va-Noxian and Minotaur.
+				</span>
+			</p>
+        </a>
+    </div>
+</body>
+</html>

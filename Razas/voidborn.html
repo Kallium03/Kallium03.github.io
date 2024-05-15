@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {background-color: gray; margin: 0;}
+        .parent {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+            grid-gap: 10px;
+            padding: 10px;
+            justify-content: center;
+        }
+        .parent a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+            position: relative; /* Para posicionar el epígrafe de manera absoluta */
+        }
+        .parent img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+        }
+        .caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            color: white;
+            padding: 5px 0; /* Añade espacio vertical al epígrafe */
+            font-size:40px;
+        }
+        p {
+            font-size:20px;
+            margin-top: 0; /* Elimina el espacio superior del párrafo */
+            text-align:left; /* Centrar el texto */
+        }
+        p .title {
+            font-size: 24px; /* Tamaño de fuente para el título */
+            margin-bottom: 10px; /* Añade espacio inferior al título */
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <a>
+            <img src="https://static.wikia.nocookie.net/leagueoflegends/images/9/93/Vel%27Koz_A_Different_Hunger.jpg/revision/latest/scale-to-width-down/1200?cb=20180820210903" alt="Skarner">
+        </a>
+        <a>
+            <p>
+                <span class="title">Voidborn</span>
+				<br>
+				Los Voidborn son seres de Runaterra construidos por los Vigilantes del Vacío. Su razón de existir es aceptar, consumir y aprender toda la información sobre Runaterra necesaria para ayudar al eventual regreso de los Vigilantes.
+				<br>
+				Algunos, sin embargo, perdieron la conexión con sus creadores al materializarse, quedando así aislados de todo lo que eran, solos en un mundo diferente donde todas las sensaciones son distintas. Hasta la de existir.
+				<br><br>
+				<span class="title">Voidborn</span>
+				<br>
+				Ability scores: WIS -2, STR +1, CON +2
+				<br>
+				Size: Medium or Small
+				<br>
+				Speed: 30 ft.
+				<br>
+				Creature type: Voidborn
+				<br><br>
+				Darkvision: You can see in the darkness as in bright light.
+				<br><br>
+				Blindsight: You can sense any creature in a radius of 5 ft from you without the need to see them. 
+				<br><br>
+				Outer Build: You don't need to eat nor to breath.
+				<br><br>
+				Amorphous: You can squeeze your body through a space as narrow as 5 inches if you are small or 10 inches if you are medium. You don't have arms, but you have one appendice you can use to pick up to one item at a time. You have advantage on ability checks you make to escape a grapple.
+				<br><br>
+				Antimatter body: Your body looks like a messy amalgamation of twisted animal parts colored by the characteristic purple tone of your plane. You are resistant to fire, cold, necrotic and non magical slashing, piercing and bludgeoning damage. You are immune to electric, poison, acid, thunder and force damage. You are vulnerable to psychic and radiant damage. Any creature that is not a Voidborn and is in contact with you starts disrupting, taking necrotic damage equal to your level + your proficiency bonus. A necrotic resistance don't reduce this damage, but an immunity does. 
+				<br><br>
+				Natural weapons: Some parts of you are dangerous to touch. It deals 1d6 + STR MOD necrotic damage if you are small or 1d8 + STR MOD if you are medium.
+				<br><br>
+				Assimilation: You can consume not Voidborn creatures. Each recently dead creature you consumes makes you 1 inch bigger. If you grows over 10 ft tall, you turn your size to large, your natural weapons do 1d10 + STR MOD necrotic damage, you grow another usable appendice, you are now immune to fire and cold damage and you can summon, once by long rest, a number equal to to your proficiency bonus of new Voidborns. They will abandon you if there is no combat or potencial preys in sight. Each day (dawn) that passes without an assimilation, you shrink 1 inch. If you shrink under 1 feet, you become tiny, you don't have any resistances nor immunities yet your vulnerabilities remain and your natural weapons turns to make 1d4 + STR MOD necrotic damage. You can't shrink under 1 inch.
+				<br><br>
+				Languages: You can hear and understand other Voidborns telepathically up to 300 ft away. You can also understand any language a creature you consumed understood. But you can't speak, the only noises you can make sounds like rusty chains being scratched. You can talk telepathically in any language you understand with any creature you touch directly.
+				</span>
+			</p>
+        </a>
+    </div>
+</body>
+</html>

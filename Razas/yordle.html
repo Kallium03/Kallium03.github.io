@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {background-color: gray; margin: 0;}
+        .parent {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+            grid-gap: 10px;
+            padding: 10px;
+            justify-content: center;
+        }
+        .parent a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+            position: relative; /* Para posicionar el epígrafe de manera absoluta */
+        }
+        .parent img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+        }
+        .caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            color: white;
+            padding: 5px 0; /* Añade espacio vertical al epígrafe */
+            font-size:40px;
+        }
+        p {
+            font-size:20px;
+            margin-top: 0; /* Elimina el espacio superior del párrafo */
+            text-align:left; /* Centrar el texto */
+        }
+        p .title {
+            font-size: 24px; /* Tamaño de fuente para el título */
+            margin-bottom: 10px; /* Añade espacio inferior al título */
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <a>
+            <img src="https://pm1.aminoapps.com/7947/e283d9a77fcdbd6b16a856da5d91d4f3410d9cb4r1-1200-1200v2_hq.jpg" alt="Skarner">
+        </a>
+        <a>
+            <p>
+                <span class="title">Yordle</span>
+				<br>
+				Los Yordle son una raza de espíritus que generalmente tienen la apariencia de bípedos. En su mayoría, residen en un lugar místico conocido como la Ciudad de Bandle, aunque algunos se han aventurado a vivir en numerosos lugares alrededor de Runaterra.
+				<br>
+				Con el tiempo, a medida que las civilizaciones humanas avanzaban, también lo hicieron las apariencias y capacidades de los yordles. En algún momento, para poder incorporarse fácilmente a las áreas controladas por humanos, los yordles comenzaron a utilizar una habilidad llamada "Glamur", la cual les dio la apariencia de humanos de pequeña estatura.
+				<br><br>
+				<span class="title">Yordle</span>
+				<br>
+				Ability Scores: Int +2; Dex +1
+				<br>
+				Size: Small
+				<br>
+				Speed: 25 ft.
+				<br><br>
+				Age. Yordles mature at the same rate humans do, and most are expected to settle down into an adult life by around age 40. They can live 500 to almost 1000 years.
+				<br><br>
+				Alignment. Most Yordles lean toward chaotics alignments.
+				<br><br>
+				Size. Yordles are between 3 and 4 feet tall and average about 40 pounds. Your size is Small.
+				<br><br>
+				Darkvision. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+				<br><br>
+				Yordle Cunning. You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.
+				<br><br>
+				Languages. You can speak, read, and write Yordle.
+				<br><br>
+				Natural Illusionist. You know the minor illusion cantrip. Intelligence is your spellcasting ability for it.
+				<br><br>
+				Speak with Small Beasts. Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts. Forest Yordles love animals and often keep squirrels, badgers, rabbits, moles, woodpeckers, and other creatures as beloved pets.Languages. You can speak, read, and write Va-Noxian and Yordle.
+				</span>
+			</p>
+        </a>
+    </div>
+</body>
+</html>

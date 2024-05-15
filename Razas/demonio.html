@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {background-color: gray; margin: 0;}
+        .parent {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+            grid-gap: 10px;
+            padding: 10px;
+            justify-content: center;
+        }
+        .parent a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+            position: relative; /* Para posicionar el epígrafe de manera absoluta */
+        }
+        .parent img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+        }
+        .caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            color: white;
+            padding: 5px 0; /* Añade espacio vertical al epígrafe */
+            font-size:40px;
+        }
+        p {
+            font-size:20px;
+            margin-top: 0; /* Elimina el espacio superior del párrafo */
+            text-align:left; /* Centrar el texto */
+        }
+        p .title {
+            font-size: 24px; /* Tamaño de fuente para el título */
+            margin-bottom: 10px; /* Añade espacio inferior al título */
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <a>
+            <img src="https://cdn.cardsrealm.com/images/cartas/worldwalker/en/crop-med/evelynn-final-level-06ru025t5.jpeg?9145" alt="Skarner">
+        </a>
+        <a>
+            <p>
+                <span class="title">Demonio
+				<br>
+				Los Demonios son una raza de espíritus sin forma inherente, forjados e impulsados por los pensamientos y sentimientos negativos de los mortales. Específicamente, los demonios difaman y manipulan a las víctimas para saciar sus propios deseos de sufrimiento. Cada demonio está en sintonía con una emoción específica, alimentándose de esas emociones hasta que la víctima inevitablemente muere. Se han visto en numerosos lugares de Runaterra, pero se manifiestan principalmente donde hay mucha agitación y desesperación.
+				<br><br>
+				<span class="title">Demon
+				<br>
+				Ability Scores: Int +1; Choose Dex or Cha +2
+				<br>
+				Size: Medium
+				<br>
+				Speed: 30 ft.
+				<br><br>
+				Age. Demons don't mature at all. They exist since the creation of the world.
+				<br><br>
+				Size. Demons appear to be the same size and build as humans. Your size is Medium.
+				<br><br>
+				Darkvision. Thanks to your  heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+				<br><br>
+				Ethereal Origin. You have immunity to necrotic damage.
+				<br><br>
+				Devil's Tongue. You know the vicious mockery cantrip. When you reach 3rd level, you can cast the charm person spell as a 2nd-level spell once with this trait. When you reach 5th level, you can cast the enthrall spell once with this trait. You must finish a long rest to cast these spells once again with this trait. Charisma is your spellcasting ability for them.
+				<br><br>
+				Languages. You can speak, read, and write Common and Infernal.
+				</span>
+			</p>
+        </a>
+    </div>
+</body>
+</html>

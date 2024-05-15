@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {background-color: gray; margin: 0;}
+        .parent {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+            grid-gap: 10px;
+            padding: 10px;
+            justify-content: center;
+        }
+        .parent a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+            position: relative; /* Para posicionar el epígrafe de manera absoluta */
+        }
+        .parent img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+        }
+        .caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            color: white;
+            padding: 5px 0; /* Añade espacio vertical al epígrafe */
+            font-size:40px;
+        }
+        p {
+            font-size:20px;
+            margin-top: 0; /* Elimina el espacio superior del párrafo */
+            text-align:left; /* Centrar el texto */
+        }
+        p .title {
+            font-size: 24px; /* Tamaño de fuente para el título */
+            margin-bottom: 10px; /* Añade espacio inferior al título */
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <a>
+            <img src="https://static.wikia.nocookie.net/leagueoflegends/images/4/46/03FR006-full.png/revision/latest/scale-to-width-down/1200?cb=20200825192514" alt="Skarner">
+        </a>
+        <a>
+            <p>
+                <span class="title">Troll</span>
+				<br>
+				Los trolls son una especie humanoide grotesca que habita en Freljord. En su mayoría son de piel azul y viven en tribus. Últimamente, los Trolls han comenzado a prepararse para la guerra, reuniéndose bajo el estandarte de Trundle Trundle, el Rey Troll.
+				<br><br>
+				<span class="title">Troll</span>
+				<br>
+				Ability Scores: Str +2; Con +1
+				<br>
+				Size: Medium
+				<br>
+				Speed: 30 ft.
+				<br><br>
+				Age. Trolls have lifespans comparable to humans. They enter adulthood in their late teens and usually live less than a century.
+				<br><br>
+				Size. Trolls are between 7 and 8 feet tall and weigh between 280 and 340 pounds. Your size is Medium.
+				<br><br>
+				Natural Athlete. You have proficiency in the Athletics skill.
+				<br><br>
+				Stone's Endurance. You can focus yourself to occasionally shrug off injury. When you take damage, you can use your reaction to roll a d12. Add your Constitution modifier to the number rolled, and reduce the damage by that total. After you use this trait, you can't use it again until you finish a short or long rest.
+				<br><br>
+				Powerful Build. You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.
+				<br><br>
+				Mountain Born. You have resistance to cold damage. You're also acclimated to high altitude, including elevations above 20,000 feet.
+				<br><br>
+				Languages. You can speak Troll.
+				</span>
+			</p>
+        </a>
+    </div>
+</body>
+</html>
