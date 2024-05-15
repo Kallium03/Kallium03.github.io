@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {background-color: gray; margin: 0;}
+        .parent {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+            grid-gap: 10px;
+            padding: 10px;
+            justify-content: center;
+        }
+        .parent a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+            position: relative; /* Para posicionar el epígrafe de manera absoluta */
+        }
+        .parent img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+        }
+        .caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            color: white;
+            padding: 5px 0; /* Añade espacio vertical al epígrafe */
+            font-size:40px;
+        }
+        p {
+            font-size:20px;
+            margin-top: 0; /* Elimina el espacio superior del párrafo */
+            text-align:left; /* Centrar el texto */
+        }
+        p .title {
+            font-size: 24px; /* Tamaño de fuente para el título */
+            margin-bottom: 10px; /* Añade espacio inferior al título */
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <a href=".Humanos/demaciano.html">
+            <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Skarner_0.jpg" alt="Skarner">
+            <div class="caption">Skarner</div>
+        </a>
+        <a>
+            <p>
+                <span class="title">Título del texto</span>
+				<br>
+                Lorem ipsum dolor sit amet consectetur adipiscing elit, nam tortor odio inceptos imperdiet erat, at sodales morbi cum malesuada nostra. Eros lectus pretium suspendisse nibh potenti mollis tristique turpis, sodales in quis tempor lobortis urna sollicitudin natoque morbi, dapibus maecenas ultricies nisl posuere sed nec. Iaculis tincidunt primis sociis felis commodo leo hac a, quisque suscipit ligula per nascetur ridiculus lectus.
+                <br>
+				<span style="font-weight:bold;">
+                Libero laoreet vitae id quisque ligula, proin duis dictumst. Sapien vel odio habitasse viverra ligula felis porta nostra vivamus scelerisque, fermentum a arcu interdum hendrerit risus lobortis tempus quis urna cum, mus vestibulum laoreet eleifend blandit neque praesent varius non. Eu turpis maecenas a molestie habitant hendrerit viverra vulputate conubia, urna id quis aliquet euismod penatibus duis.
+            </span>
+			</p>
+        </a>
+		        <a href=".Humanos/demaciano.html">
+            <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Skarner_0.jpg" alt="Skarner">
+            <div class="caption">Skarner</div>
+        </a>
+        <a>
+            <p>
+                <span class="title">Título del texto</span>
+				<br>
+                Lorem ipsum dolor sit amet consectetur adipiscing elit, nam tortor odio inceptos imperdiet erat, at sodales morbi cum malesuada nostra. Eros lectus pretium suspendisse nibh potenti mollis tristique turpis, sodales in quis tempor lobortis urna sollicitudin natoque morbi, dapibus maecenas ultricies nisl posuere sed nec. Iaculis tincidunt primis sociis felis commodo leo hac a, quisque suscipit ligula per nascetur ridiculus lectus.
+                <br>
+                Libero laoreet vitae id quisque ligula, proin duis dictumst. Sapien vel odio habitasse viverra ligula felis porta nostra vivamus scelerisque, fermentum a arcu interdum hendrerit risus lobortis tempus quis urna cum, mus vestibulum laoreet eleifend blandit neque praesent varius non. Eu turpis maecenas a molestie habitant hendrerit viverra vulputate conubia, urna id quis aliquet euismod penatibus duis.
+            </p>
+        </a>
+
+        <!-- Repite este patrón para cada sección -->
+    </div>
+</body>
+</html>
