@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {background-color: gray; margin: 0;}
+        .parent {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+            grid-gap: 10px;
+            padding: 10px;
+            justify-content: center;
+        }
+        .parent a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+            position: relative; /* Para posicionar el epígrafe de manera absoluta */
+        }
+        .parent img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+        }
+        .caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            color: white;
+            padding: 5px 0; /* Añade espacio vertical al epígrafe */
+            font-size:40px;
+        }
+        p {
+            font-size:20px;
+            margin-top: 0; /* Elimina el espacio superior del párrafo */
+            text-align:left; /* Centrar el texto */
+        }
+        p .title {
+            font-size: 24px; /* Tamaño de fuente para el título */
+            margin-bottom: 10px; /* Añade espacio inferior al título */
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <a>
+            <img src="./Killash.png" alt="Skarner">
+        </a>
+        <a>
+            <p>
+                <span class="title">Vastaya</span>
+				<br>
+                Los Vastaya son una raza quimérica de Runaterra que son los descendientes mágicos más débiles de los mortales iluminados que tomaron el poder del reino espiritual conocido como Vastayashai'rei. Los Vastaya pueden verse considerablemente diferentes entre sí, pero todos comparten características animales y humanas.
+				<br><br>
+				<span class="title">Kiilash</span>
+				<br>
+				Ability Scores: Dex +2; Str +1
+				<br>
+				Size: Medium
+				<br>
+				Speed: 30 ft., climb 20 ft.
+				<br><br>
+				Age. Although vastayas reach physical maturity at about the same age as humans, their understanding of adulthood goes beyond physical growth to encompass worldly experience. A vastaya can live about 800 years old.
+				<br>
+				Size. Vastayas vary widely in height and build, from barely 3 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.
+				<br>
+				Darkvision. You have a feline's keen senses, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+				<br>
+				Feline Agility. Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns.
+				<br>
+				Cat's Claws. Because of your claws, you have a climbing speed of 20 feet. In addition, your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.
+				<br>
+				Cat's Talents. You have proficiency in the Perception and Stealth skills.
+				<br>
+				Fey Ancestry. You have advantage on saving throws against being charmed, and magic can't put you to sleep.
+				<br>
+				Languages. You can speak, read, and write Kiilash and undestand one extra language of your choice. 
+			</span>
+			</p>
+        </a>
+    </div>
+</body>
+</html>
