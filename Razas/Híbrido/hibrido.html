@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {background-color: gray; margin: 0;}
+        .parent {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+            grid-gap: 10px;
+            padding: 10px;
+            justify-content: center;
+        }
+        .parent a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+            position: relative; /* Para posicionar el epígrafe de manera absoluta */
+        }
+        .parent img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+        }
+        .caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            color: white;
+            padding: 5px 0; /* Añade espacio vertical al epígrafe */
+            font-size:20px;
+        }
+        p {
+            font-size:20px;
+            margin-top: 0; /* Elimina el espacio superior del párrafo */
+            text-align:left; /* Centrar el texto */
+        }
+        p .title {
+            font-size: 24px; /* Tamaño de fuente para el título */
+            margin-bottom: 10px; /* Añade espacio inferior al título */
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <a href="./Humano/demaciano.html">
+            <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Garen_0.jpg" alt="Skarner">
+            <div class="caption">DEMACIA</div>
+        </a>
+		        <a href="./Humano/freljord.html">
+            <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Olaf_0.jpg" alt="Skarner">
+            <div class="caption">FRELJORD</div>
+        </a>
+		        <a href="./Humano/jonia.html">
+            <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Akali_0.jpg" alt="Skarner">
+            <div class="caption">JONIA</div>
+        </a>
+		        <a href="./Humano/aguasturbias.html">
+            <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Gangplank_7.jpg" alt="Skarner">
+            <div class="caption">AGUAS TURBIAS</div>
+        </a>
+		        <a href="./Humano/noxus.html">
+            <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Darius_0.jpg" alt="Skarner">
+            <div class="caption">NOXUS</div>
+        </a>
+		        <a href="./Humano/shurima.html">
+            <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Akshan_0.jpg" alt="Skarner">
+            <div class="caption">SHURIMA</div>
+        </a>
+		        <a href="./Humano/piltover.html">
+            <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Jayce_0.jpg" alt="Skarner">
+            <div class="caption">PILTOVER</div>
+        </a>
+		        <a href="./Humano/zaun.html">
+            <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Ekko_0.jpg" alt="Skarner">
+            <div class="caption">ZAUN</div>
+        </a>
+		        <a href="./Humano/ixtal.html">
+            <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Qiyana_0.jpg" alt="Skarner">
+            <div class="caption">IXTAL</div>
+        </a>
+		        <a href="./Humano/targon.html">
+            <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Kayle_0.jpg" alt="Skarner">
+            <div class="caption">TARGÓN</div>
+        </a>
+		
+
+        <!-- Repite este patrón para cada sección -->
+    </div>
+</body>
+</html>
