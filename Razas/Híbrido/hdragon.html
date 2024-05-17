@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {background-color: gray; margin: 0;}
+        .parent {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+            grid-gap: 10px;
+            padding: 10px;
+            justify-content: center;
+        }
+        .parent a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+            position: relative; /* Para posicionar el epígrafe de manera absoluta */
+        }
+        .parent img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+        }
+        .caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            color: white;
+            padding: 5px 0; /* Añade espacio vertical al epígrafe */
+            font-size:40px;
+        }
+        p {
+            font-size:20px;
+            margin-top: 0; /* Elimina el espacio superior del párrafo */
+            text-align:left; /* Centrar el texto */
+        }
+        p .title {
+            font-size: 24px; /* Tamaño de fuente para el título */
+            margin-bottom: 10px; /* Añade espacio inferior al título */
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <a>
+            <img src="./Hdragon_1.jpg" alt="Skarner">
+        </a>
+        <a>
+            <p>
+                <span class="title">Medio-dragón</span>
+				<br>
+                Los medio-dragón son criaturas con magia elemental pura ardiendo en su corazón. Aunque suelen parecer humanoides la mayor parte del tiempo, puede adoptar la forma de dragón de sus padres cuando es necesario. No son comunes, ya que la esencia de un humano debe contaminar un huevo de dragón antes de que eclosione. No hay muchos huevos de dragón en el mundo, y suelen estar bien protegidos por sus padres, lo que no vuelve una tarea fácil el conseguirlos. 
+				<br>
+				Públicamente se sabe de una sola medio-dragón que recientemente se sumó a las fuerzas demacianas, devolviendo el equilibrio a la balanza bélica que comenzaba a inclinarse a favor de Noxus.
+				<br><br>
+				<span class="title">Half-Dragon</span>
+				<br>
+				Ability Scores: Str +2; Cha +1
+				<br>
+				Size: Medium
+				<br>
+				Speed: 30 ft.
+				<br><br>
+				Age. Half-Dragons grow quickly. They walk hours after hatching, attain the size and development of a 10-year-old human child by the age of 3, and reach adulthood by 15. They live to be around 100.
+				<br>
+				Size. Half-Dragons are taller and heavier than humans, standing well over 6 feet tall and averaging almost 250 pounds. Your size is Medium.
+				<br>
+				Darkvision. Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can discern color in darkness.
+				<br>
+				Draconic Ancestry. You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table.
+				<br><br>
+				Infernal	-	Fire:		15 ft. cone 		(Dex. save)
+				<br>
+				Cloud 		-   Lightning:	5 by 30 ft. line 	(Dex. save)
+				<br>
+				Mountain	-   Force:		15 ft. cone 		(Con. save)
+				<br>
+				Ocean		-	Cold:		15 ft. cone 		(Con. save)
+				<br>
+				Chemtech	-	Poison:		15 ft. cone 		(Con. save)
+				<br>
+				Hextech		-	Lightning: 	5 by 30 ft. line  	(Dex. save)
+				<br><br>
+				Breath Weapon. You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can't use it again until you complete a short or long rest.
+				<br>
+				Inner Dragon. Starting at 3rd level, you can use your action to unleash the elemental energy within yourself, causing your body to turn into a dragon's. The type is associated with your Ancestry. Your transformation lasts for 1 minute or until you die, end it as a bonus action or fall unconscious. During it, you asume the statblock of a dragon from the bestiary using the table below, but your hit points are shared porcentually between forms. Once you use this trait, you can't use it again until you finish a long rest. You gain one extra use at 7th, 14th, 21st and 28th level. At level 30 yuo gain unlimited uses of this trait. You can expend one use to extend by 1 minute the duration of a current transformation.
+				<br>
+				Lvl 3  - Wyrmling
+				<br>
+				Lvl 9  - Young
+				<br>
+				Lvl 16 - Adult
+				<br>
+				Lvl 23 - Ancient
+				<br>
+				Lvl 29 - Greatwyrm (Requires that the previous one have died)
+				<br>
+				Damage Resistance. You have resistance to the damage type associated with your draconic ancestry.
+				<br>
+				Languages. You undestand dragonic and can speak, read, and write one language of your choice. 
+			</span>
+			</p>
+        </a>
+    </div>
+</body>
+</html>

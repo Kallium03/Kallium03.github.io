@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {background-color: gray; margin: 0;}
+        .parent {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+            grid-gap: 10px;
+            padding: 10px;
+            justify-content: center;
+        }
+        .parent a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+            position: relative; /* Para posicionar el epígrafe de manera absoluta */
+        }
+        .parent img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+        }
+        .caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            color: white;
+            padding: 5px 0; /* Añade espacio vertical al epígrafe */
+            font-size:40px;
+        }
+        p {
+            font-size:20px;
+            margin-top: 0; /* Elimina el espacio superior del párrafo */
+            text-align:left; /* Centrar el texto */
+        }
+        p .title {
+            font-size: 24px; /* Tamaño de fuente para el título */
+            margin-bottom: 10px; /* Añade espacio inferior al título */
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <a>
+            <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ivern_0.jpg" alt="Skarner">
+        </a>
+        <a>
+            <p>
+                <span class="title">Fitoide</span>
+				<br>
+                Antigua y poderosa magia a veces une espíritus menores a las plantas y los árboles como medida de defensa contra los invasores de los bosques, dotando al vegetal de vida y creando un fitoide. Un fitoide puede emerger y recorrer las tierras, dejando atrás sus raíces pero por siempre conectado a  la naturaleza de la que nació. Los fitoides actúan como guardianes de sus dominios boscosos, pero suelen pecar de curiosos por el mundo más allá del linde. Un fitoide sorprendido por la belleza de un extraño, una dulce melodía, un aroma delicioso o una luz misteriosa podría investigar más de cerca, tal vez incluso abandonar su tarea y su hogar.
+				<br>
+				Acostumbran trabajan con otras criaturas para defender sus bosques, por lo que pueden relacionarse con plantas y animales como iguales.
+				<br><br>
+				<span class="title">Fitoid</span>
+				<br>
+				Ability Scores: Wis +2; Dex +1
+				<br>
+				Size: Medium
+				<br>
+				Speed: 30 ft.
+				<br><br>
+				Age. Fitoids have long lifespans. A fitoid born as an adulthood, and the oldest of them can live for 500 years.
+				<br>
+				Size. Fitoids are shorter on average than humans and relatively slender. Your size is Medium.
+				<br>
+				Darkvision. Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can discern color in darkness.
+				<br>
+				Adaptation. You can cast detect magic and disguise self with this trait, using Wisdom as your spellcasting ability for them. Once you cast either spell, you can't cast it again with this trait until you finish a short or long rest. When you use this version of disguise self, allowing you to more easily blend in with humans and elves.
+				<br>
+				Hidden Step. As a bonus action, you can magically turn invisible until the start of your next turn or until you attack, make a damage roll, or force someone to make a saving throw. Once you use this trait, you can't use it again until you finish a short or long rest.
+				<br>
+				Speak with Beasts and Plants. The fitoid can communicate with beasts and plants as if they shared a language.
+				<br>
+				Flammable. If you receive fire damage that can ignite objects, you catch fire. You can take an action to extinguish the fire, while on fire, you take 1d6 fire damage at the start of your turn.
+				<br>
+				Magic Resistance. The fitoid has advantage on saving throws against spells and other magical effects.
+				<br>
+				Languages. You can speak, read, and write Kiilash and undestand one extra language of your choice. 
+			</span>
+			</p>
+        </a>
+    </div>
+</body>
+</html>

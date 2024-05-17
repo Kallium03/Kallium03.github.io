@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {background-color: gray; margin: 0;}
+        .parent {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+            grid-gap: 10px;
+            padding: 10px;
+            justify-content: center;
+        }
+        .parent a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+            position: relative; /* Para posicionar el epígrafe de manera absoluta */
+        }
+        .parent img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+        }
+        .caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            color: white;
+            padding: 5px 0; /* Añade espacio vertical al epígrafe */
+            font-size:40px;
+        }
+        p {
+            font-size:20px;
+            margin-top: 0; /* Elimina el espacio superior del párrafo */
+            text-align:left; /* Centrar el texto */
+        }
+        p .title {
+            font-size: 24px; /* Tamaño de fuente para el título */
+            margin-bottom: 10px; /* Añade espacio inferior al título */
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <a>
+            <img src="./terio.png" alt="Skarner">
+        </a>
+        <a>
+            <p>
+                <span class="title">Teriomorfista</span>
+				<br>
+                Algunos humanos nacen con la capacidad de saltar entre dos formas a voluntad, para otros es parte de una maldición que recibieron. En cualquier caso, estos teriomorfistas combinan cualidades de dos especies, humano y animal. Normalmente viven marginados o usan su capacidad de cambio para adaptarse a una o a ambas sociedades. Varían enormemente en altura, según cada forma; incluso puede cambiar su tamaño entre transformaciones. 
+				<br><br>
+				<span class="title">Shifter</span>
+				<br>
+				Ability Scores: Any +2; Any other +1
+				<br>
+				Size: Medium
+				<br>
+				Speed: 30 ft.
+				<br><br>
+				Age. Shifters are quick to mature both physically and emotionally, reaching young adulthood at age 10. They rarely live to be more than 70 years old.
+				<br>
+				Size. While in human form, your size is Medium. The size of your transformation is the size of the animal you turn into.
+				<br>
+				Darkvision. You have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+				<br>
+				Shifting. As an action, you can assume a bestial appearance. This transformation lasts until you revert to your human appearance as an action. The transformation is a magical process, so any effect that limits magic as Antimagic Field prevents you from shifting.
+				<br>
+				Wild Knowledge. You are proficient in one of the following skills of your choice: Acrobatics, Athletics, Stealth or Survival.
+				Languages. You can speak, read, and write Kiilash and undestand one extra language of your choice. 
+			</span>
+			</p>
+        </a>
+    </div>
+</body>
+</html>
