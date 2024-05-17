@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {background-color: gray; margin: 0;}
+        .parent {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+            grid-gap: 10px;
+            padding: 10px;
+            justify-content: center;
+        }
+        .parent a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+            position: relative; /* Para posicionar el epígrafe de manera absoluta */
+        }
+        .parent img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+        }
+        .caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            color: white;
+            padding: 5px 0; /* Añade espacio vertical al epígrafe */
+            font-size:40px;
+        }
+        p {
+            font-size:20px;
+            margin-top: 0; /* Elimina el espacio superior del párrafo */
+            text-align:left; /* Centrar el texto */
+        }
+        p .title {
+            font-size: 24px; /* Tamaño de fuente para el título */
+            margin-bottom: 10px; /* Añade espacio inferior al título */
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <a>
+            <img src="./espectro.png" alt="Skarner">
+        </a>
+        <a>
+            <p>
+                <span class="title">Islas de la Sombra</span>
+				<br>
+                La tierra ahora conocida como las Islas de la Sombra fue una vez un hermoso reino, pero fue destrozada por un cataclismo mágico. Niebla Negra envuelve permanentemente las islas y la tierra misma está contaminada, corrompida por la malévola hechicería. A los seres vivos que se encuentran en las Islas de las Sombras se les quita lentamente su fuerza vital, lo que, a su vez, atrae a los espíritus insaciables y depredadores de los muertos. Aquellos que perecen dentro de la Niebla Negra están condenados a perseguir esta tierra melancólica por la eternidad. Peor aún, el poder de las Islas de la Sombra se fortalece con cada año que pasa, lo que permite que las sombras de la no-muerte amplíen su alcance y cosechen almas por toda Runaterra.
+				<br><br>
+				<span class="title">Corrupted Human</span>
+				<br>
+				Ability Scores: Str +1; Dex +1; Con +1; Int +1; Wis +1; Cha +1
+				<br>
+				Size: Medium
+				<br>
+				Speed: 30 ft.
+				<br>
+				Age. You stopped aging in some moment of your life as a Human.
+				<br>
+				Size. Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.
+				<br>
+				Deathless Nature. You are constantly escaping death, a fact represented by the following benefits:
+				<br>
+				-You have advantage on saving throws against disease and being poisoned, and you have resistance to poison damage.
+				<br>
+				-You have advantage on death saving throws.
+				<br>
+				-You don't need to eat, drink, or breathe.
+				<br>
+				-You don't need to sleep, and magic can't put you to sleep. You can finish a long rest in 4 hours if you spend those hours in an inactive, motionless state, during which you retain consciousness.
+				<br>
+				Knowledge from a Past Life. You temporarily remember glimpses of the past, perhaps faded memories from ages ago or a previous life. When you make an ability check that uses a skill, you can roll a d6 immediately after seeing the number on the d20 and add the number on the d6 to the check. You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
+				<br>
+				Languages. You can speak, read, and write a language of your choice.
+			</span>
+			</p>
+        </a>
+    </div>
+</body>
+</html>
