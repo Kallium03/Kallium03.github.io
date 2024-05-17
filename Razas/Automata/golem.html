@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {background-color: gray; margin: 0;}
+        .parent {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+            grid-gap: 10px;
+            padding: 10px;
+            justify-content: center;
+        }
+        .parent a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+            position: relative; /* Para posicionar el epígrafe de manera absoluta */
+        }
+        .parent img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+        }
+        .caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            color: white;
+            padding: 5px 0; /* Añade espacio vertical al epígrafe */
+            font-size:40px;
+        }
+        p {
+            font-size:20px;
+            margin-top: 0; /* Elimina el espacio superior del párrafo */
+            text-align:left; /* Centrar el texto */
+        }
+        p .title {
+            font-size: 24px; /* Tamaño de fuente para el título */
+            margin-bottom: 10px; /* Añade espacio inferior al título */
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <a>
+            <img src="https://pm1.aminoapps.com/6705/e4a68e0aa391abadf4492b6305b7ebac6b146ac3_00.jpg" alt="Skarner">
+        </a>
+        <a>
+            <p>
+				<span class="title">Golem</span>
+				<br>
+				Ability Scores: Str +2; Con +2; Wis -2
+				<br>
+				Size: Medium
+				<br>
+				Speed: 30 ft.
+				<br><br>
+				Age. The maximum lifespan of the golems remains a mystery; at minimum, they can last a few centuries.
+				<br>
+				Size. Your size is Medium. Most golems stand between 6 and 7 feet in height and can weigh up to 450 pounds.
+				<br>
+				Sentry's Rest. When you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesn’t render you unconscious, and you can see and hear as normal.
+				<br>
+				Resilience. You were created to have remarkable fortitude, represented by the following benefits.
+				<br>
+				You are immune to disease, poison and can't be poisoned.
+				<br>
+				You don’t need to eat, drink, or breathe.
+				<br>
+				You don't need to sleep and don't suffer the effects of exhaustion due to lack of rest, and magic can’t put you to sleep.
+				<br>
+				Hard as stone. Your body has a high natural hardness. You gain no benefit from wearing armor, but if you are using a shield, you apply its bonus as normal. Your natural armor is 16 + your proficiency bonus, and you have disadvantage on Dexterity (Stealth) checks.
+				<br>
+				Iron Fists. When you make an unarmed strike, you can deal 1d4 + your Strength modifier bludgeoning damage instead of the normal damage.
+				<br>
+				Powerful Build. You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.
+				<br>
+				Languages. You can speak, read, and write the lenguage of who gave you life.
+			</span>
+			</p>
+        </a>
+    </div>
+</body>
+</html>

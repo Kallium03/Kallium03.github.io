@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {background-color: gray; margin: 0;}
+        .parent {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+            grid-gap: 10px;
+            padding: 10px;
+            justify-content: center;
+        }
+        .parent a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+            position: relative; /* Para posicionar el epígrafe de manera absoluta */
+        }
+        .parent img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+        }
+        .caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            color: white;
+            padding: 5px 0; /* Añade espacio vertical al epígrafe */
+            font-size:40px;
+        }
+        p {
+            font-size:20px;
+            margin-top: 0; /* Elimina el espacio superior del párrafo */
+            text-align:left; /* Centrar el texto */
+        }
+        p .title {
+            font-size: 24px; /* Tamaño de fuente para el título */
+            margin-bottom: 10px; /* Añade espacio inferior al título */
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <a>
+            <img src="./android.jpg" alt="Skarner">
+        </a>
+        <a>
+            <p>
+				<span class="title">Android</span>
+				<br>
+				Ability Scores: Con +1
+				<br>
+				Size: Medium
+				<br>
+				Speed: 30 ft.
+				<br><br>
+				Age. The maximum lifespan of the androids remains a mystery; so far, androids have shown no signs of deterioration due to age.
+				<br>
+				Size. Your size is almost or the same as when you were a human.
+				<br>
+				Sentry's Rest. When you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesn’t render you unconscious, and you can see and hear as normal.
+				<br>
+				Resilience. You were modified to have remarkable fortitude, represented by the following benefits.
+				<br>
+				You have advantage on saving throws against being poisoned, and you have resistance to poison damage.
+				<br>
+				You are immune to disease.
+				<br>
+				You don’t need to eat, drink, or breathe.
+				<br>
+				You don't need to sleep and don't suffer the effects of exhaustion due to lack of rest, and magic can’t put you to sleep.
+				<br>
+				Languages. You can speak, read, and write your natal language.
+				<br><br>
+				Envoy.
+				<br>				
+				As an envoy, you were modified with a certain specialized function in mind. You might be an assassin, a healer, or an entertainer, to name a few possibilities. Envoys are the rarest of the warforged subraces, and yours could be a unique design.
+				<br>
+				Ability Score Increase. Two different ability scores of your choice increase by 1.
+				<br>
+				Specialized Design. You gain one skill proficiency of your choice, one tool proficiency of your choice, and fluency in one language of your choice.
+				<br>
+				Integrated Tool. Choose one tool you’re proficient with. This tool is integrated into your body, and you double your proficiency bonus for any ability checks you make with it. You must have your hands free to use this integrated tool.
+				<br>
+				Integrated Protection. Your body has built-in defensive layers, which determine your armor class. You gain no benefit from wearing armor, but if you are using a shield, you apply its bonus as normal.
+				<br>
+				You can alter your body to enter different defensive modes; each time you finish a long rest, choose one mode to adopt, provided you meet the mode’s prerequisite.
+				<br>
+				- Soft plating: AC = 11 + your Dexterity modifier (add proficiency bonus if proficient with light armor).
+				<br>
+				- Composite Plating: AC = 13 + your Dexterity modifier (maximum of 2) + your proficiency bonus. (Requires medium armor proficiency)
+				<br>
+				- Heavy Plating: AC = 16 + your proficiency bonus; disadvantage on Dexterity (Stealth) checks. (Requires heavy armor proficiency)
+				<br><br>
+				Skirmisher
+				<br>
+				You were modified to scout the edges of battle and outmaneuver your enemies. You are lean and designed for speed.
+				<br>
+				Ability Score Increase. Your Dexterity score increases by 2.
+				<br>
+				Swift. Your walking speed is increased by 5 feet.
+				<br>
+				Light Step. When you are traveling alone for an extended period of time (one hour or more), you can move stealthily at a normal pace.
+				<br>
+				Integrated Protection. Your body has built-in defensive layers, which determine your armor class. You gain no benefit from wearing armor, but if you are using a shield, you apply its bonus as normal.  Your natural armor is 11 + your Dexterity modifier (add proficiency bonus if proficient with light armor).
+				
+			</span>
+			</p>
+        </a>
+    </div>
+</body>
+</html>
